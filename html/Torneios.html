@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="pt-MZ">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Conheça os torneios ChessMent, inscreva-se e consulte a lista de participantes."
+    />
+    <title>Torneios | ChessMent</title>
+    <link rel="stylesheet" href="../css/torneios.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <script src="../js/content.js" defer></script>
+    <script src="../js/inscricoes.js" defer></script>
+  </head>
+  <body data-page="torneios">
+    <header class="site-header">
+      <a class="brand" href="../index.html" aria-label="ChessMent — início"
+        ><span class="brand-mark"
+          ><img src="../public/img/logo.png" alt="" /></span
+        ><span>ChessMent<small>Xadrez para todos</small></span></a
+      >
+      <nav class="site-nav" aria-label="Menu principal">
+        <ul>
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre nós</a></li>
+          <li><a href="../aula.html">Aulas</a></li>
+          <li><a href="Torneios.html" aria-current="page">Torneios</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="sobre.html#contactos">Contactos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="page-intro">
+        <p class="eyebrow" data-content="text-1">Jogue o próximo lance</p>
+        <h1 data-content="text-2">Torneios ChessMent</h1>
+        <p data-content="text-3">
+          Escolha um torneio para se inscrever ou consulte a lista de
+          participantes. Datas e locais serão confirmados pela organização.
+        </p>
+      </section>
+      <section
+        class="tournament-grid section-wrap"
+        aria-label="Lista de torneios"
+      >
+        <article
+          class="tournament-card"
+          data-tournament="Torneio Aberto de Maputo"
+        >
+          <span class="card-tag">Nível aberto</span>
+          <h2>Torneio Aberto de Maputo</h2>
+          <p>
+            Um desafio para jogadores de diferentes níveis, com partidas
+            competitivas e um ambiente acolhedor.
+          </p>
+          <div class="card-meta">
+            <span
+              ><i class="fa-solid fa-calendar-days"></i> Data a anunciar</span
+            ><span><i class="fa-solid fa-location-dot"></i> Maputo</span
+            ><span
+              ><i class="fa-solid fa-users"></i>
+              <span data-registration-count>0 inscritos</span></span
+            >
+          </div>
+          <div class="card-actions">
+            <button class="card-button" type="button">Inscrever-se</button
+            ><button class="list-button" type="button">Ver inscritos</button>
+          </div>
+        </article>
+        <article
+          class="tournament-card"
+          data-tournament="Rápidas no Fim de Semana"
+        >
+          <span class="card-tag">Rápidas</span>
+          <h2>Rápidas no Fim de Semana</h2>
+          <p>
+            Partidas dinâmicas para testar agilidade mental, cálculo e tomada de
+            decisão sob pressão.
+          </p>
+          <div class="card-meta">
+            <span
+              ><i class="fa-solid fa-calendar-days"></i> Data a anunciar</span
+            ><span><i class="fa-solid fa-location-dot"></i> Maputo</span
+            ><span
+              ><i class="fa-solid fa-users"></i>
+              <span data-registration-count>0 inscritos</span></span
+            >
+          </div>
+          <div class="card-actions">
+            <button class="card-button" type="button">Inscrever-se</button
+            ><button class="list-button" type="button">Ver inscritos</button>
+          </div>
+        </article>
+        <article
+          class="tournament-card"
+          data-tournament="Copa Juvenil ChessMent"
+        >
+          <span class="card-tag">Juvenil</span>
+          <h2>Copa Juvenil ChessMent</h2>
+          <p>
+            Uma oportunidade para jovens talentos jogarem, aprenderem e
+            crescerem num ambiente positivo.
+          </p>
+          <div class="card-meta">
+            <span
+              ><i class="fa-solid fa-calendar-days"></i> Data a anunciar</span
+            ><span><i class="fa-solid fa-location-dot"></i> Maputo</span
+            ><span
+              ><i class="fa-solid fa-users"></i>
+              <span data-registration-count>0 inscritos</span></span
+            >
+          </div>
+          <div class="card-actions">
+            <button class="card-button" type="button">Inscrever-se</button
+            ><button class="list-button" type="button">Ver inscritos</button>
+          </div>
+        </article>
+        <article
+          class="tournament-card"
+          data-tournament="Torneio Clássico Regional"
+        >
+          <span class="card-tag">Clássico</span>
+          <h2>Torneio Clássico Regional</h2>
+          <p>
+            Para quem gosta de estratégia profunda, planeamento e partidas
+            disputadas com mais tempo.
+          </p>
+          <div class="card-meta">
+            <span
+              ><i class="fa-solid fa-calendar-days"></i> Data a anunciar</span
+            ><span><i class="fa-solid fa-location-dot"></i> Maputo</span
+            ><span
+              ><i class="fa-solid fa-users"></i>
+              <span data-registration-count>0 inscritos</span></span
+            >
+          </div>
+          <div class="card-actions">
+            <button class="card-button" type="button">Inscrever-se</button
+            ><button class="list-button" type="button">Ver inscritos</button>
+          </div>
+        </article>
+      </section>
+      <p class="storage-note section-wrap">
+        As inscrições são guardadas na base de dados da ChessMent e partilhadas
+        entre os visitantes.
+      </p>
+    </main>
+
+    <div class="modal" id="inscricaoModal" aria-hidden="true">
+      <section
+        class="modal-content"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="formTitle"
+      >
+        <button class="close-btn" type="button" aria-label="Fechar janela">
+          &times;
+        </button>
+        <h2 id="formTitle">Inscrição no torneio</h2>
+        <p class="modal-description">
+          Os participantes apresentados pertencem apenas ao torneio
+          seleccionado.
+        </p>
+        <div class="modal-columns">
+          <div id="registrationPanel">
+            <form class="registration-form" id="tournamentForm">
+              <div class="input-group">
+                <label for="tournamentName">Torneio</label
+                ><input
+                  id="tournamentName"
+                  name="tournamentName"
+                  type="text"
+                  readonly
+                />
+              </div>
+              <div class="input-group">
+                <label for="nome">Nome completo</label
+                ><input
+                  id="nome"
+                  name="nome"
+                  type="text"
+                  autocomplete="name"
+                  maxlength="80"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label for="email">Email</label
+                ><input
+                  id="email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  maxlength="120"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label for="nivel">Nível de jogo</label
+                ><select id="nivel" name="nivel" required>
+                  <option value="">Seleccione o seu nível</option>
+                  <option>Iniciante</option>
+                  <option>Intermédio</option>
+                  <option>Avançado</option>
+                  <option>Profissional</option>
+                </select>
+              </div>
+              <button class="submit-btn" type="submit">
+                Confirmar inscrição
+              </button>
+              <div
+                class="form-status"
+                id="formStatus"
+                role="status"
+                aria-live="polite"
+              ></div>
+            </form>
+          </div>
+          <section class="registrants-panel" aria-labelledby="registrantsTitle">
+            <h3 id="registrantsTitle">Lista de inscritos</h3>
+            <p class="registrants-count" id="registrantsCount">0 inscritos</p>
+            <ul class="registrants-list" id="registrantsList"></ul>
+          </section>
+        </div>
+      </section>
+    </div>
+
+    <div class="map-modal" id="mapModal" aria-hidden="true">
+      <section
+        class="map-modal-content"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="mapTitle"
+      >
+        <button class="map-close" type="button" aria-label="Fechar mapa">
+          &times;
+        </button>
+        <h2 id="mapTitle">Localização do torneio</h2>
+        <iframe
+          id="mapFrame"
+          title="Mapa da localização do torneio"
+          loading="lazy"
+          allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </div>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <section class="footer-section">
+          <h2>ChessMent</h2>
+          <p>
+            Desenvolvendo conhecimento, estratégia e disciplina através do
+            xadrez.
+          </p>
+        </section>
+        <section class="footer-section">
+          <h3>Explorar</h3>
+          <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre nós</a></li>
+            <li><a href="../aula.html">Aulas</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+          </ul>
+        </section>
+        <section class="footer-section">
+          <h3>Contactos</h3>
+          <p><i class="fa-solid fa-envelope"></i> chessment@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> +258 85 500 2715</p>
+          <p><i class="fa-solid fa-location-dot"></i> Maputo, Moçambique</p>
+        </section>
+        <section class="footer-section">
+          <h3>Siga-nos</h3>
+          <p>Acompanhe as nossas actividades.</p>
+          <div class="social-icons">
+            <a
+              href="https://www.instagram.com/chessment_oficial/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i></a
+            ><a
+              href="https://www.facebook.com/profile.php?id=61555874865438"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </div>
+        </section>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          © 2026 ChessMent. Todos os direitos reservados. ·
+          <a href="admin.html">Administração</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

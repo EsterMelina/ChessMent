@@ -1,0 +1,531 @@
+{
+  "tournaments": [
+    {
+      "id": "tournament-1",
+      "name": "Torneio Aberto de Maputo",
+      "registrationKey": "Torneio Aberto de Maputo",
+      "description": "Um desafio para jogadores de diferentes níveis, com partidas competitivas e um ambiente acolhedor.",
+      "category": "Nível aberto",
+      "date": "",
+      "time": "",
+      "location": "Maputo",
+      "mapUrl": "",
+      "fee": "",
+      "image": "",
+      "status": "open"
+    },
+    {
+      "id": "tournament-2",
+      "name": "Rápidas no Fim de Semana",
+      "registrationKey": "Rápidas no Fim de Semana",
+      "description": "Partidas dinâmicas para testar agilidade mental, cálculo e tomada de decisão sob pressão.",
+      "category": "Rápidas",
+      "date": "",
+      "time": "",
+      "location": "Maputo",
+      "mapUrl": "",
+      "fee": "",
+      "image": "",
+      "status": "open"
+    },
+    {
+      "id": "tournament-3",
+      "name": "Copa Juvenil ChessMent",
+      "registrationKey": "Copa Juvenil ChessMent",
+      "description": "Uma oportunidade para jovens talentos jogarem, aprenderem e crescerem num ambiente positivo.",
+      "category": "Juvenil",
+      "date": "",
+      "time": "",
+      "location": "Maputo",
+      "mapUrl": "",
+      "fee": "",
+      "image": "",
+      "status": "open"
+    },
+    {
+      "id": "tournament-4",
+      "name": "Torneio Clássico Regional",
+      "registrationKey": "Torneio Clássico Regional",
+      "description": "Para quem gosta de estratégia profunda, planeamento e partidas disputadas com mais tempo.",
+      "category": "Clássico",
+      "date": "",
+      "time": "",
+      "location": "Maputo",
+      "mapUrl": "",
+      "fee": "",
+      "image": "",
+      "status": "open"
+    }
+  ],
+  "photos": [
+    {
+      "src": "public/img/72.jpg",
+      "alt": "Participantes numa actividade de xadrez",
+      "title": "Encontro de xadrez",
+      "id": "photo-1",
+      "photographer": "",
+      "source": "",
+      "license": "",
+      "licenseUrl": ""
+    },
+    {
+      "src": "public/img/77.jpg",
+      "alt": "Jogadores concentrados durante uma partida",
+      "title": "Concentração em cada lance",
+      "id": "photo-2",
+      "photographer": "",
+      "source": "",
+      "license": "",
+      "licenseUrl": ""
+    },
+    {
+      "src": "public/img/78.jpg",
+      "alt": "Momento de convívio da comunidade de xadrez",
+      "title": "Comunidade ChessMent",
+      "id": "photo-3",
+      "photographer": "",
+      "source": "",
+      "license": "",
+      "licenseUrl": ""
+    },
+    {
+      "src": "public/img/74.jpg",
+      "alt": "Jovens a jogar xadrez",
+      "title": "Novos talentos",
+      "id": "photo-4",
+      "photographer": "",
+      "source": "",
+      "license": "",
+      "licenseUrl": ""
+    },
+    {
+      "src": "public/img/chessment.jpeg",
+      "alt": "Actividade de xadrez em Moçambique",
+      "title": "Xadrez em Moçambique",
+      "id": "photo-5",
+      "photographer": "",
+      "source": "",
+      "license": "",
+      "licenseUrl": ""
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Magnus_Carlsen_2013-05-24_001.jpg",
+      "alt": "O grande mestre Magnus Carlsen, campeão mundial de xadrez",
+      "title": "Magnus Carlsen — foco de campeão",
+      "photographer": "Catharina Caprino",
+      "source": "https://commons.wikimedia.org/wiki/File:Magnus_Carlsen_2013-05-24_001.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "id": "photo-6"
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Garry_Kasparov_%28Luzern_1982%29.jpg/960px-Garry_Kasparov_%28Luzern_1982%29.jpg",
+      "alt": "Garry Kasparov na Olimpíada de Xadrez de 1982, em Lucerna",
+      "title": "Garry Kasparov — estratégia e audácia",
+      "photographer": "Klaus Krtschil",
+      "source": "https://commons.wikimedia.org/wiki/File:Garry_Kasparov_(Luzern_1982).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "id": "photo-7"
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Judit_Polg%C3%A1r_2013.jpg/960px-Judit_Polg%C3%A1r_2013.jpg",
+      "alt": "A grande mestre Judit Polgár no Campeonato Europeu de Equipas de 2013",
+      "title": "Judit Polgár — talento e determinação",
+      "photographer": "Przemysław Jahr",
+      "source": "https://commons.wikimedia.org/wiki/File:Judit_Polg%C3%A1r_2013.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "id": "photo-8"
+    }
+  ],
+  "pages": {
+    "inicio": {
+      "text-1": {
+        "label": "Estratégia. Comunidade. Excelência.",
+        "kind": "text",
+        "value": "Estratégia. Comunidade. Excelência."
+      },
+      "text-2": {
+        "label": "Cada lance abre um novo caminho.",
+        "kind": "text",
+        "value": "Cada lance abre um novo caminho."
+      },
+      "text-3": {
+        "label": "Descubra o xadrez com a ChessMent: aprenda, pratique e participe ",
+        "kind": "text",
+        "value": "Descubra o xadrez com a ChessMent: aprenda, pratique e participe na comunidade enxadrística moçambicana."
+      },
+      "text-4": {
+        "label": "Aprender juntos. Jogar melhor.",
+        "kind": "text",
+        "value": "Aprender juntos. Jogar melhor."
+      },
+      "text-5": {
+        "label": "Aulas de xadrez",
+        "kind": "text",
+        "value": "Aulas de xadrez"
+      },
+      "text-6": {
+        "label": "Do primeiro movimento a planos mais avançados, desenvolva o seu j",
+        "kind": "text",
+        "value": "Do primeiro movimento a planos mais avançados, desenvolva o seu jogo com uma aprendizagem progressiva."
+      },
+      "text-7": {
+        "label": "→",
+        "kind": "text",
+        "value": "→"
+      },
+      "text-8": {
+        "label": "Torneios",
+        "kind": "text",
+        "value": "Torneios"
+      },
+      "text-9": {
+        "label": "Encontre o seu próximo desafio e consulte a lista de inscritos em",
+        "kind": "text",
+        "value": "Encontre o seu próximo desafio e consulte a lista de inscritos em cada torneio."
+      },
+      "text-10": {
+        "label": "→",
+        "kind": "text",
+        "value": "→"
+      },
+      "text-11": {
+        "label": "Uma comunidade",
+        "kind": "text",
+        "value": "Uma comunidade"
+      },
+      "text-12": {
+        "label": "Conheça a missão do clube, os seus valores e as actividades que a",
+        "kind": "text",
+        "value": "Conheça a missão do clube, os seus valores e as actividades que aproximam pessoas através do xadrez."
+      },
+      "text-13": {
+        "label": "→",
+        "kind": "text",
+        "value": "→"
+      },
+      "hero-image": {
+        "label": "Imagem de destaque",
+        "kind": "image",
+        "value": "public/img/chessment.jpeg"
+      }
+    },
+    "aulas": {
+      "text-1": {
+        "label": "Aprender ao seu ritmo",
+        "kind": "text",
+        "value": "Aprender ao seu ritmo"
+      },
+      "text-2": {
+        "label": "Aulas para pensar o jogo de outra forma.",
+        "kind": "text",
+        "value": "Aulas para pensar o jogo de outra forma."
+      },
+      "text-3": {
+        "label": "Um percurso para conhecer as regras, ganhar confiança no tabuleir",
+        "kind": "text",
+        "value": "Um percurso para conhecer as regras, ganhar confiança no tabuleiro e construir uma visão estratégica — seja qual for o seu ponto de partida."
+      },
+      "text-4": {
+        "label": "Iniciação",
+        "kind": "text",
+        "value": "Iniciação"
+      },
+      "text-5": {
+        "label": "Movimentos das peças, regras essenciais, xeque e xeque-mate. Idea",
+        "kind": "text",
+        "value": "Movimentos das peças, regras essenciais, xeque e xeque-mate. Ideal para quem está a começar."
+      },
+      "text-6": {
+        "label": "Intermédio",
+        "kind": "text",
+        "value": "Intermédio"
+      },
+      "text-7": {
+        "label": "Tácticas, desenvolvimento, segurança do rei e princípios para con",
+        "kind": "text",
+        "value": "Tácticas, desenvolvimento, segurança do rei e princípios para construir um plano de jogo."
+      },
+      "text-8": {
+        "label": "Avançado",
+        "kind": "text",
+        "value": "Avançado"
+      },
+      "text-9": {
+        "label": "Análise de posições, finais, cálculo de variantes e preparação pa",
+        "kind": "text",
+        "value": "Análise de posições, finais, cálculo de variantes e preparação para competição."
+      },
+      "text-10": {
+        "label": "O que vai desenvolver",
+        "kind": "text",
+        "value": "O que vai desenvolver"
+      },
+      "text-11": {
+        "label": "Leitura e análise de posições",
+        "kind": "text",
+        "value": "Leitura e análise de posições"
+      },
+      "text-12": {
+        "label": "Concentração e tomada de decisão",
+        "kind": "text",
+        "value": "Concentração e tomada de decisão"
+      },
+      "text-13": {
+        "label": "Planeamento estratégico e pensamento crítico",
+        "kind": "text",
+        "value": "Planeamento estratégico e pensamento crítico"
+      },
+      "text-14": {
+        "label": "Respeito, disciplina e espírito desportivo",
+        "kind": "text",
+        "value": "Respeito, disciplina e espírito desportivo"
+      },
+      "text-15": {
+        "label": "Como funciona",
+        "kind": "text",
+        "value": "Como funciona"
+      },
+      "text-16": {
+        "label": "As actividades podem incluir explicação de conceitos, exercícios ",
+        "kind": "text",
+        "value": "As actividades podem incluir explicação de conceitos, exercícios guiados e prática sobre o tabuleiro. O conteúdo é ajustado ao nível e aos objectivos dos participantes."
+      },
+      "text-17": {
+        "label": "Para saber horários, disponibilidade e condições, contacte direct",
+        "kind": "text",
+        "value": "Para saber horários, disponibilidade e condições, contacte directamente a equipa ChessMent."
+      },
+      "text-18": {
+        "label": "Vamos começar a jogar?",
+        "kind": "text",
+        "value": "Vamos começar a jogar?"
+      },
+      "text-19": {
+        "label": "Fale connosco para saber mais sobre as próximas aulas.",
+        "kind": "text",
+        "value": "Fale connosco para saber mais sobre as próximas aulas."
+      }
+    },
+    "sobre": {
+      "text-1": {
+        "label": "Quem somos",
+        "kind": "text",
+        "value": "Quem somos"
+      },
+      "text-2": {
+        "label": "Mais do que um jogo, uma comunidade.",
+        "kind": "text",
+        "value": "Mais do que um jogo, uma comunidade."
+      },
+      "text-3": {
+        "label": "A ChessMent é um clube de xadrez fundado por jovens moçambicanos,",
+        "kind": "text",
+        "value": "A ChessMent é um clube de xadrez fundado por jovens moçambicanos, com o propósito de tornar o xadrez acessível, educativo e competitivo para todos."
+      },
+      "text-4": {
+        "label": "O nosso clube",
+        "kind": "text",
+        "value": "O nosso clube"
+      },
+      "text-5": {
+        "label": "Somos apaixonados pela arte do xadrez e pelo potencial que o jogo",
+        "kind": "text",
+        "value": "Somos apaixonados pela arte do xadrez e pelo potencial que o jogo tem de transformar pessoas. Acreditamos que o xadrez vai além das peças e do tabuleiro: desenvolve raciocínio, disciplina, criatividade, respeito e liderança."
+      },
+      "text-6": {
+        "label": "Com uma visão jovem e dinâmica, procuramos criar um espaço de apr",
+        "kind": "text",
+        "value": "Com uma visão jovem e dinâmica, procuramos criar um espaço de aprendizagem, competição e crescimento para crianças, jovens e adultos em Moçambique."
+      },
+      "text-7": {
+        "label": "A nossa missão",
+        "kind": "text",
+        "value": "A nossa missão"
+      },
+      "text-8": {
+        "label": "Promover o xadrez como ferramenta de desenvolvimento intelectual,",
+        "kind": "text",
+        "value": "Promover o xadrez como ferramenta de desenvolvimento intelectual, educacional e social entre crianças, jovens e adultos."
+      },
+      "text-9": {
+        "label": "A nossa visão",
+        "kind": "text",
+        "value": "A nossa visão"
+      },
+      "text-10": {
+        "label": "Contribuir para uma comunidade enxadrística forte e inclusiva, fo",
+        "kind": "text",
+        "value": "Contribuir para uma comunidade enxadrística forte e inclusiva, formando jogadores e organizando actividades de qualidade."
+      },
+      "text-11": {
+        "label": "Os nossos valores",
+        "kind": "text",
+        "value": "Os nossos valores"
+      },
+      "text-12": {
+        "label": "Compromisso",
+        "kind": "text",
+        "value": "Compromisso"
+      },
+      "text-13": {
+        "label": "O desenvolvimento dos nossos membros é uma prioridade.",
+        "kind": "text",
+        "value": "O desenvolvimento dos nossos membros é uma prioridade."
+      },
+      "text-14": {
+        "label": "Inclusão",
+        "kind": "text",
+        "value": "Inclusão"
+      },
+      "text-15": {
+        "label": "O xadrez deve estar ao alcance de todas as idades e níveis.",
+        "kind": "text",
+        "value": "O xadrez deve estar ao alcance de todas as idades e níveis."
+      },
+      "text-16": {
+        "label": "Excelência",
+        "kind": "text",
+        "value": "Excelência"
+      },
+      "text-17": {
+        "label": "Procuramos qualidade, rigor e evolução constante.",
+        "kind": "text",
+        "value": "Procuramos qualidade, rigor e evolução constante."
+      },
+      "text-18": {
+        "label": "Responsabilidade",
+        "kind": "text",
+        "value": "Responsabilidade"
+      },
+      "text-19": {
+        "label": "Valorizamos organização, respeito e pontualidade.",
+        "kind": "text",
+        "value": "Valorizamos organização, respeito e pontualidade."
+      },
+      "text-20": {
+        "label": "Inovação",
+        "kind": "text",
+        "value": "Inovação"
+      },
+      "text-21": {
+        "label": "Encontramos novas formas de ensinar, competir e inspirar.",
+        "kind": "text",
+        "value": "Encontramos novas formas de ensinar, competir e inspirar."
+      },
+      "text-22": {
+        "label": "Contacte-nos",
+        "kind": "text",
+        "value": "Contacte-nos"
+      },
+      "text-23": {
+        "label": "Vamos conversar?",
+        "kind": "text",
+        "value": "Vamos conversar?"
+      },
+      "text-24": {
+        "label": "Junte-se à comunidade e acompanhe o nosso trabalho nas redes soci",
+        "kind": "text",
+        "value": "Junte-se à comunidade e acompanhe o nosso trabalho nas redes sociais e canais oficiais."
+      }
+    },
+    "torneios": {
+      "text-1": {
+        "label": "Jogue o próximo lance",
+        "kind": "text",
+        "value": "Jogue o próximo lance"
+      },
+      "text-2": {
+        "label": "Torneios ChessMent",
+        "kind": "text",
+        "value": "Torneios ChessMent"
+      },
+      "text-3": {
+        "label": "Escolha um torneio para se inscrever ou consulte a lista de parti",
+        "kind": "text",
+        "value": "Escolha um torneio para se inscrever ou consulte a lista de participantes. Datas e locais serão confirmados pela organização."
+      }
+    },
+    "galeria": {
+      "text-1": {
+        "label": "Momentos ChessMent",
+        "kind": "text",
+        "value": "Momentos ChessMent"
+      },
+      "text-2": {
+        "label": "O xadrez acontece aqui.",
+        "kind": "text",
+        "value": "O xadrez acontece aqui."
+      },
+      "text-3": {
+        "label": "Recordações de partidas, encontros e momentos partilhados à volta",
+        "kind": "text",
+        "value": "Recordações de partidas, encontros e momentos partilhados à volta do tabuleiro."
+      },
+      "text-4": {
+        "label": "Vídeos de xadrez",
+        "kind": "text",
+        "value": "Vídeos de xadrez"
+      },
+      "text-5": {
+        "label": "Veja partidas, ideias e conteúdos da comunidade.",
+        "kind": "text",
+        "value": "Veja partidas, ideias e conteúdos da comunidade."
+      },
+      "text-6": {
+        "label": "Momentos do OPEN CHESSMENT SECOND PAWN ♟️",
+        "kind": "text",
+        "value": "Momentos do OPEN CHESSMENT SECOND PAWN ♟️"
+      },
+      "text-7": {
+        "label": "Um registo das actividades e dos encontros da comunidade ChessMen",
+        "kind": "text",
+        "value": "Um registo das actividades e dos encontros da comunidade ChessMent."
+      },
+      "video-url": {
+        "label": "Vídeo (https://www.youtube-nocookie.com/embed/ID)",
+        "kind": "video",
+        "value": "https://www.youtube-nocookie.com/embed/q1EwrQazk4k"
+      }
+    },
+    "contactos": {
+      "email": {
+        "label": "Email",
+        "kind": "text",
+        "value": "chessment@gmail.com"
+      },
+      "phone": {
+        "label": "Telefone",
+        "kind": "text",
+        "value": "+258 85 500 2715"
+      },
+      "address": {
+        "label": "Localização",
+        "kind": "text",
+        "value": "Maputo, Moçambique"
+      },
+      "whatsapp": {
+        "label": "WhatsApp (ligação)",
+        "kind": "url",
+        "value": "https://wa.me/258855002715"
+      },
+      "instagram": {
+        "label": "Instagram",
+        "kind": "url",
+        "value": "https://www.instagram.com/chessment_oficial/"
+      },
+      "facebook": {
+        "label": "Facebook",
+        "kind": "url",
+        "value": "https://www.facebook.com/profile.php?id=61555874865438"
+      },
+      "youtube": {
+        "label": "Canal YouTube",
+        "kind": "url",
+        "value": "https://www.youtube.com/@chessment"
+      }
+    }
+  }
+}
